@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/cache@v5
         with:
-          path: /usr/local/lib/node_modules
+          path: /usr/local/lib/node_modules/@magidoc
           key: ${{ runner.os }}-graphql-node-modules
       - uses: actions/cache@v5
         with:
